@@ -1,12 +1,13 @@
 import React from 'react';
 import "./intro.css";
-import Me from "../../img/me.jpg";
+import Me from "../../assets/me.jpg";
 
 const Intro = () => {
   return (
 
     // i = intro
     <div className="i">
+
         <div className="i-left">
             <div className="i-left-wrapper">
                 <h2 className='i-intro'>Hello, my name is</h2>
@@ -82,8 +83,8 @@ const Intro = () => {
             </g>
           </g>
         </svg>
-
         </div>
+
         <div className="i-right">
             <div className="i-bg"></div>
             <img src={Me} alt="Joseph LaMantia" className="i-img" />
