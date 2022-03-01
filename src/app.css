@@ -1,0 +1,13 @@
+body {
+
+    margin: 0;
+    height:100vh;
+    width:100vw;
+
+    background: linear-gradient(
+        rgba(221, 221, 221, 0.92),
+        rgba(240, 240, 240, 0.92)
+      ),url('https://cutewallpaper.org/21/aesthetic-anime-desktop-wallpaper/1920x1080-Photo-Background-Elkgroveses.com.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+  }

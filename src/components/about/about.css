@@ -21,7 +21,9 @@
     position: absolute;
     top: 50px;
     left: 50px;
-    background-color: rgb(97, 139, 255);
+    background: url('https://cutewallpaper.org/21/aesthetic-anime-desktop-wallpaper/1920x1080-Photo-Background-Elkgroveses.com.jpg');
+    background-size: cover;
+    background-attachment: fixed;
   }
   
   .a-card {
@@ -48,6 +50,7 @@
 
   .a-desc{
       font-weight: 300;
+      font-size: 20px;
   }
 
   .exp{
@@ -59,6 +62,7 @@
 
   .exp-texts{
       width: 70%;
+      font-size: 20px;
   }
 
   .exp-title{

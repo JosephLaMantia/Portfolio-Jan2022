@@ -1,15 +1,22 @@
+.p-wrapper{
+    display: flex;
+    flex-direction: row;
+}
+
 .p{
-    width: 30%;
+    min-width: 30%;
+    max-width: 30%;
     height: 40vh;
     margin: 20px 10px;
-    border: 2px solid whitesmoke;
-    border-radius: 10px 10px 0px 0px;
+    border-radius: 10px 10px 10px 10px;
     overflow: hidden;
+
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
 
 .p-browser{
     height: 20px;
-    background-color: whitesmoke;
+    background-color: #d8d8d8;
     display: flex;
     align-items: center;
 }
@@ -19,10 +26,52 @@
     height: 6px;
     border-radius: 50%;
     margin: 3px;
-    background-color: white;
+    background-color: #d8d8d8;
+}
+
+.red{
+    background-color: #ff554e;
+}
+
+.yellow{
+    background-color: #ffbd2e;
+}
+
+.green{
+    background-color: #28ca42;
 }
 
 .p-img{
     width: 100%;
     height: 100%;
+}
+
+.p-info{
+    padding-top: 20px;
+    padding-left: 20px;
+    text-align: left !important;
+}
+
+.p-title{
+    padding-left: 10px;
+    font-family: 'Major Mono Display', monospace;
+    word-spacing: -10px;
+}
+
+.p-desc{
+    font-weight: 375;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.p-team{
+    font-weight: 390;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.p-tech{
+    font-weight: 390;
+    font-size: 16px;
+    margin-bottom: 5px;
 }
